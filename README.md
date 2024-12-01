@@ -41,7 +41,7 @@ src/
 │         ├── Footer.jsx      # Pie de página con enlaces y créditos.
 │         ├── AdoptNow.jsx    # Sección principal para las tarjetas de adopción.
 │         ├── OurServices.jsx # Información sobre los servicios relacionados.
-          ├── Counter.jsx     # Componente para el contador interactivo.
+│         ├── Counter.jsx     # Componente para el contador interactivo.
 │         └── Reviews.jsx     # Opiniones de los usuarios.
 ├── Router.jsx                # Configuración de rutas para navegación.
 ├── config/
