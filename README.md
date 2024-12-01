@@ -36,15 +36,18 @@ src/
 ├── assets/
 │   └── images/         # Imágenes organizadas para mascotas y diseño.
 ├── components/
-│   ├── Header.jsx      # Barra de navegación principal.
-│   ├── Footer.jsx      # Pie de página con enlaces y créditos.
-│   ├── AdoptNow.jsx    # Sección principal para las tarjetas de adopción.
-│   ├── OurServices.jsx # Información sobre los servicios relacionados.
-│   └── Reviews.jsx     # Opiniones de los usuarios.
+│   └── views/
+│         ├── Nabvar.jsx      # Barra de navegación principal.
+│         ├── Footer.jsx      # Pie de página con enlaces y créditos.
+│         ├── AdoptNow.jsx    # Sección principal para las tarjetas de adopción.
+│         ├── OurServices.jsx # Información sobre los servicios relacionados.
+          ├── Counter.jsx     # Componente para el contador interactivo.
+│         └── Reviews.jsx     # Opiniones de los usuarios.
+├── Router.jsx                # Configuración de rutas para navegación.
 ├── config/
-│   └── images.js       # Archivo para importar y centralizar las imágenes.
-├── App.jsx             # Punto de entrada principal de la aplicación.
-└── index.css           # Estilos personalizados adicionales.
+│   └── images.js             # Archivo para importar y centralizar las imágenes.
+├── App.jsx                   # Punto de entrada principal de la aplicación.
+└── index.css                 # Estilos personalizados adicionales.
 
 ```
 ## ⚙️ Instrucciones de Instalación y Uso
