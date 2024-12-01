@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+
+.font-merriweather {
+    font-family: "Merriweather", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-dancing {
+    font-family: "Dancing Script", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-raleway {
+    font-family: "Raleway", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-pacifico {
+    font-family: "Pacifico", cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.font-satisfy {
+    font-family: "Satisfy", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-peach {
+    background-color: #f8d5d3;
 }
+
+.bg-naranja {
+    background-color: #ed6328;
+}
+
+.bg-celeste {
+    background-color: #e0e5e9;
+}
+
+.bg-skin {
+    background-color: #fce2c3;
+}
+
+.bg-musgo {
+    background-color: #bfa732;
+}
+
+.bg-militar {
+    background-color: #5b5121;
+}
+
+.bg-naranjaclaro {
+    background-color: #faae41;
+}
+
+.bg-aqua {
+    background-color: #9ac3bb;
+}
+
+/* segunda paleta de colores */
+
+.bg-indigos {
+    background-color: #2a2a68;
+}
+
+.bg-purples {
+    background-color: #594eff;
+}
+
+.bg-reds {
+    background-color: #f04f53;
+}
+
+.bg-violets {
+    background-color: #cccaff;
+}
+
+.bg-yellows {
+    background-color: #f7e43b;
+}
+
+.bg-lavenders {
+    background-color: #ebeaff;
+}
+
+.bg-greens {
+    background-color: #34c2a4;
+}
+
+.bg-mints {
+    background-color: #95f5f0;
+}
+
+
