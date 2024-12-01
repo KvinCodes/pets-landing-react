@@ -1,6 +1,4 @@
-import pets3 from '../../assets/images/dog3.png'
-import pets5 from '../../assets/images/dog5.png'
-import cat1 from '../../assets/images/cat1.png'
+import { images } from '../../config/images'
 
 const Home = () => {
     return (
@@ -13,9 +11,9 @@ const Home = () => {
                 YOUR PLAN</button>
         </div>
         <div class="flex flex-row w-full justify-center items-center mt-2">
-            <img src={pets3} class="w-1/3 md:w-1/4 hidden md:block" alt=""/>
-            <img src={pets5} class="w-1/3 md:w-1/5 " alt=""/>
-            <img src={cat1} class="w-1/3 md:w-1/5" alt=""/>
+            <img src={images.dogs.dog3} class="w-1/3 md:w-1/4 hidden md:block" alt=""/>
+            <img src={images.dogs.dog5} class="w-1/3 md:w-1/5 " alt=""/>
+            <img src={images.cats.cat1} class="w-1/3 md:w-1/5" alt=""/>
         </div>
     </section> 
     )

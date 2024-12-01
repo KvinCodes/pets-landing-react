@@ -1,4 +1,4 @@
-import foto1 from '../../assets/images/foto1.png'
+import { images } from '../../config/images'
 
 const OurServices = () => {
     return (
@@ -41,7 +41,7 @@ const OurServices = () => {
             </div>
         </div>
         <div className="flex flex-row w-full md:w-1/3 p-5 order-2 md:order-3">
-            <img src={foto1} className="w-full" alt=""/>
+            <img src={images.misc.foto1} className="w-full" alt=""/>
         </div>
     </section>
     )
