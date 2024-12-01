@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { images } from '../../config/images'
 
 const Navbar = () => {
@@ -9,10 +10,11 @@ const Navbar = () => {
                 </a>
                 <nav
                     className="md:mr-auto md:ml-4 md:pl-4 md:border-l md:border-white text-white font-bold flex flex-wrap items-center text-sm md:text-lg justify-center">
-                    <a className="mr-5 hover:text-[#594eff]" href="#">Home</a>
+                    <Link to="/" className="mr-5 hover:text-[#594eff]" href="#home">Home</Link>
                     <a className="mr-5 hover:text-[#594eff]" href="#adopt">Adopt Now</a>
                     <a className="mr-5 hover:text-[#594eff]" href="#services">Our Services</a>
                     <a className="mr-5 hover:text-[#594eff]" href="#reviews">Reviews</a>
+                    <Link to="/counter" className="mr-5 hover:text-[#594eff]" href="#counter">Counter</Link>
                 </nav>
                 <button
                     className="inline-flex items-center bg-indigos text-white font-bold border-0 py-2 px-4 focus:outline-none hover:bg-[#594eff] text-sm md:text-base mt-2 md:mt-4">Register
