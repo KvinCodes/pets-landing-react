@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 🐾 Adopt Now - Landing Page de Adopción de Mascotas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a **Adopt Now**! Este es un proyecto de práctica que busca promover la adopción de mascotas mediante una landing page atractiva, moderna y responsiva.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Descripción
 
-### `npm start`
+**Adopt Now** es una landing page diseñada para fomentar la adopción de mascotas de una manera visualmente impactante.  
+El sitio incluye información sobre las mascotas disponibles, servicios relacionados y opiniones de los usuarios.  
+Se enfoca en ofrecer una experiencia de usuario intuitiva y amigable.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Características:
+- **Diseño responsivo** que se adapta a todos los dispositivos.
+- **Componentes reutilizables** con manejo eficiente de datos a través de **props**.
+- **Sección interactiva de adopción** que permite visualizar mascotas con descripciones claras e imágenes atractivas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: Framework principal para construir la interfaz modular.
+- **Tailwind CSS**: Framework para un diseño limpio y responsivo.
+- **Google Fonts**: Fuentes seleccionadas para resaltar la estética del diseño.
+- **React Props**: Para manejar dinámicamente las imágenes y datos de las mascotas.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Estructura del Proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El proyecto está organizado de manera modular, utilizando componentes para mantener un código claro y reutilizable.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Estructura de Directorios:
+```plaintext
+src/
+├── assets/
+│   └── images/         # Imágenes organizadas para mascotas y diseño.
+├── components/
+│   ├── Header.jsx      # Barra de navegación principal.
+│   ├── Footer.jsx      # Pie de página con enlaces y créditos.
+│   ├── AdoptNow.jsx    # Sección principal para las tarjetas de adopción.
+│   ├── OurServices.jsx # Información sobre los servicios relacionados.
+│   └── Reviews.jsx     # Opiniones de los usuarios.
+├── config/
+│   └── images.js       # Archivo para importar y centralizar las imágenes.
+├── App.jsx             # Punto de entrada principal de la aplicación.
+└── index.css           # Estilos personalizados adicionales.
 
-### `npm run eject`
+```
+## ⚙️ Instrucciones de Instalación y Uso
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Instrucciones de Instalación y Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Asegúrate de tener instalado **Node.js** y **npm** (Node Package Manager) en tu sistema. 
+2. Clona este repositorio ejecutando en tu terminal: 
+   ```bash
+   git clone https://github.com/KvinCodespets-landing-react.git
+   
+3. Accede al directorio del proyecto con:
+   ```bash
+   cd pets-landing-react
+   
+4. Inicia el servidor de desarrollo usando:
+   ```bash
+   npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Abre tu navegador en http://localhost:3000 para ver el sitio en acción.
